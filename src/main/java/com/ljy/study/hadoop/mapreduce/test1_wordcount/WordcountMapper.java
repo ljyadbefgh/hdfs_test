@@ -1,4 +1,4 @@
-package com.ljy.study.hadoop.mapreduce.wordcount;
+package com.ljy.study.hadoop.mapreduce.test1_wordcount;
 
 import java.io.IOException;
 import org.apache.hadoop.io.IntWritable;

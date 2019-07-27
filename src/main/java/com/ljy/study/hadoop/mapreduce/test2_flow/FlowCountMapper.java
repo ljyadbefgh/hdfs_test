@@ -1,4 +1,4 @@
-package com.ljy.study.hadoop.mapreduce.flow;
+package com.ljy.study.hadoop.mapreduce.test2_flow;
 
 import java.io.IOException;
 import org.apache.hadoop.io.LongWritable;

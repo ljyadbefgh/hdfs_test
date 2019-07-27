@@ -1,4 +1,4 @@
-package com.ljy.study.hadoop.mapreduce.flow;
+package com.ljy.study.hadoop.mapreduce.test2_flow;
 
 import java.io.IOException;
 import org.apache.hadoop.conf.Configuration;
@@ -17,8 +17,8 @@ public class FlowsumDriver {
         Configuration configuration = new Configuration();
         Job job = Job.getInstance(configuration);
 
-        // 6 指定本程序的jar包所在的本地路径
-        //job.setJarByClass(FlowsumDriver.class);
+        //6 设置jar加载路径，放到服务器的时候记得去掉注释
+        job.setJarByClass(FlowsumDriver.class);
 
         // 2 指定本业务job要使用的mapper/Reducer业务类
         job.setMapperClass(FlowCountMapper.class);
