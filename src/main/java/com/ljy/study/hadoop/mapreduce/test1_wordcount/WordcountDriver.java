@@ -17,7 +17,7 @@ import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
  * （2）启动hadoop集群
  * （3）执行wordcount程序
  * [bigdata@hadoop102 software]$ hadoop jar  wc.jar  com.ljy.study.hadoop.mapreduce.test1_wordcount.WordcountDriver /user/bigdata/input /user/bigdata/output1
- *
+ *命令格式说明：hadoop jar  jar名字（如hdfs_test.jar，） jar中的类名（如om.ljy.study.hadoop.mapreduce.test1_wordcount.WordcountDriver） 云端的输入路径 云端的输出路径
  * hadoop jar  hdfs_test.jar  com.ljy.study.hadoop.mapreduce.test1_wordcount.WordcountDriver /myhdfs/wordcount/input /myhdfs/wordcount/ouput
  */
 
