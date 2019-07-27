@@ -1,0 +1,9 @@
+hello,hello
+world,world
+hadoop,hadoop
+hello,world
+hello,flume
+hadoop,hive
+hive,kafka
+flume,storm
+hive,oozie
